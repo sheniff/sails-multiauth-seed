@@ -1,0 +1,26 @@
+{
+  "name": "famo.us integration",
+  "description": "Trying to use famo.us with AngularJS for RPFit.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Sergio Almecija Rodriguez",
+      "url": "http://github.com/sheniff/"
+    }
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "famo.us"
+  ],
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "almond": "~0.2.9",
+    "famous-polyfills": "git+https://github.com/Famous/polyfills.git#0.1.1",
+    "famous": "git+https://github.com/Famous/famous.git#0.1.2",
+    "entypo": "*"
+  }
+}

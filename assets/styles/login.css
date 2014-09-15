@@ -1,0 +1,113 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 44px;
+}
+
+h1 small {
+  font-weight: 100;
+}
+
+.background {
+  background-image: url('/images/bg.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.feedbackBtn {
+  -webkit-transition: background-color 300ms ease-in-out;
+
+}
+
+.feedbackBtn:active {
+  /*background-color: rgba(0, 0, 0, 0);*/
+  -webkit-transition-duration: 0;
+}
+
+.roundBtn {
+  border-radius: 200px;
+  font-size: 40px;
+  padding-left: 6px;
+  border: 3px solid;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.roundBtn.facebook {
+  background-color: #4c66a4;
+}
+
+.roundBtn.facebook:active {
+  background-color: rgba(76, 102, 164, 0);
+}
+
+
+.roundBtn.twitter {
+  background-color: #4099FF;
+}
+
+.roundBtn.twitter:active {
+  background-color: rgba(64, 153, 255, 0);
+}
+
+.roundBtn.google {
+  background-color: #d34836;
+}
+
+.roundBtn.google:active {
+  background-color: rgba(211, 72, 54, 0);
+}
+
+.roundBtn a {
+  color: #FFFFFF;
+}
+
+.famous-input {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #FFF;
+  padding-left: 10px;
+  border-radius: 0px;
+}
+
+.famous-input::-webkit-input-placeholder { /* WebKit browsers */
+  color: #FFF;
+}
+.famous-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #FFF;
+}
+.famous-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #FFF;
+}
+.famous-input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #FFF;
+}
+
+.famous-input-email {
+  border-top-left-radius: 5px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+}
+
+.famous-input-password {
+  border-bottom-left-radius: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+}
+
+.famous-input-submit {
+  background-color: #FA5C4F;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  padding: 36px 0;
+  cursor: pointer;
+}
+
+.famous-input-submit:active {
+  background-color: rgba(250, 92, 79, 0.5);
+}
